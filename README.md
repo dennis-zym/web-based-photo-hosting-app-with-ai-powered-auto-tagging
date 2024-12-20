@@ -21,15 +21,15 @@ Make sure you have Node.js installed on your local machine.
 
 In the command prompt of the project directory, run:
 
-### npm install
+### `npm install`
 This will instrall the necessary dependencies. 
 
-### npm run start:server
+### `npm run start:server`
 This will start the mock backend server (JSON Server)
 
 In a new command prompt of the project directory, run:
 
-### npm start
+### `npm start`
 This will launch the React app at http://localhost:3000.
 
 ## API Key Information
