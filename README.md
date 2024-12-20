@@ -1,52 +1,39 @@
-# Run Application
+# Web-Based Photo Hosting APP with AI Auto Tagging 
 
-This project is an academic project 
+This is a web-based react application developed for the **Advanced Programming** module assignment of my **HND Computing Degree**. The app allows users to create individual accounts, upload photos from their accounts and get automatically generated tags using **Google Cloud Vision**.
 
-## Available Scripts
+## Main Features
+- **Create User Accounts**: Users can create individual accounts to access the app platform.
+- **Photo Upload**: Users can upload photos to the platform and choose between making them public or private.
+- **Auto-Tagging**: The app integrates with **Google Cloud Vision** to automatically generate tags for the uploaded photos.
+- **Photo Viewing**: Users can view public photos uploaded on the platform by other users.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: React
+- **Backend**: JSON Server (with json-server-auth for authentication)
+- **Database**: db.json (Used by JSON Server as a mock database for development)
+- **State Management**: Redux Toolkit, React-Redux
+- **Routing**: React Router
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Make sure you have Node.js installed on your local machine.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In the command prompt of the project directory, run:
 
+### npm install
+This will instrall the necessary dependencies. 
 
-# API Key Information
+### npm run start:server
+This will start the mock backend server (JSON Server)
+
+In a new command prompt of the project directory, run:
+
+### npm start
+This will launch the React app at http://localhost:3000.
+
+## API Key Information
 
 The API key used in this project (AIzaSyClxGPA_0e1kdez3fsQMCVaaKuCXznlxxE) is expired and can no longer be used. To run the project successfully, you must replace the key with a valid Google Cloud Vision API key. Do this in `line 18` of the `src>Photos.js` file. 
 
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+##
